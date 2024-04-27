@@ -1,0 +1,81 @@
+/* subscription plan design */
+.plans-wrapper {
+    height: 390px;
+}
+
+.plan-card {
+    height: 358px;
+    max-width: 267.5px;
+}
+
+/* call to action banner design */
+.banner {
+    background-image: radial-gradient(circle at 50% 0px, rgb(61, 92, 141), rgb(16, 26, 42) 87%);
+    height: 454px;
+}
+
+/* modal with zero JavaScript */
+#overlay {
+    visibility: hidden;
+}
+
+#overlay:target {
+    visibility: visible;
+}
+
+/* illusion of typed text */
+.illusion-container h1 {
+    animation: type 5s steps(41), blink .5s infinite alternate;
+    overflow: hidden;
+    white-space: nowrap;
+    /* width: 268px; */
+    /* width: 26.7ch; */
+    width: 41ch;
+    padding-right: 2px;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 26px;
+}
+
+.fadeIn {
+    animation: fadeIn 1s;
+    animation-fill-mode: both;
+}
+
+.wait-5s {
+    animation-delay: 5s;
+}
+
+@keyframes type {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    /* 0% {
+        border-color: black;
+    } */
+    /* 25% {
+        border-color: transparent;
+    } */
+    50% {
+        border-color: transparent;
+    }
+    /* 75% {
+        border-color: transparent;
+    } */
+    /* 100% {
+        border-color: black;
+    } */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

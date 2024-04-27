@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern css</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+    <section class="mb-5">
+        <h1 class="border-red-500 border-l-4 m-6 pl-3 text-2xl text-red-500 tracking-wider uppercase font-semibold">
+            Card design
+        </h1>
+    </section>
+
+    <h1 class="border-purple-500 border-l-4 m-6 pl-3 text-2xl text-purple-500 tracking-wider uppercase font-semibold">
+        Workshop FAQ
+    </h1>
+
+    <section class="mb-5">
+        <div class="flex items-center">
+            <h1 class="border-pink-500 border-l-4 m-6 pl-3 text-2xl text-pink-500 tracking-wider uppercase font-semibold">
+                Subscription plan design
+            </h1>
+            <span class="bg-white shadow px-4 py-2 rounded-full border-blue-500 border-l-2 border-r-2">Sept 8, 2021</span>
+        </div>
+        <div class="container mx-auto mt-8">
+            <div class="plans-wrapper flex justify-center items-end space-x-10">
+                <!-- single plan -->
+                <div class="plan-card flex flex-col bg-white pt-5 pb-6 px-4 w-1/4 shadow rounded-2xl text-center">
+                    <div class="flex justify-between items-center">
+                        <h5 class="font-semibold text-xs uppercase">
+                            <a href="#">Monthly</a>
+                        </h5>
+                        <div>
+                            <span class="text-blue-500">$</span>
+                            <span class="text-blue-500 text-4xl font-bold">15</span>
+                        </div>
+                    </div>
+
+                    <img src="https://laracasts.com/images/plans/sub-monthly.svg?v=3" alt="monthly plan img" class="mx-auto mb-3">
+
+                    <p class="text-gray-600 px-2 mb-auto">
+                        Be in the know. Fetch an endless stream of input with our <span class="font-semibold">monthly</span> plan.
+                    </p>
+
+                    <a href="#" 
+                        class="bg-gray-100 py-3 px-10 mx-auto text-xs font-bold uppercase rounded-full tracking-wide"
+                    >
+                        Start learning
+                    </a>
+                </div>
+                <div class="plan-card flex flex-col self-start border border-blue-500 bg-white pt-5 pb-6 px-4 w-1/4 shadow rounded-2xl text-center">
+                    <div class="flex justify-between items-center">
+                        <h5 class="font-semibold text-xs uppercase">
+                            <a href="#">Yearly</a>
+                        </h5>
+                        <div>
+                            <span class="text-blue-500">$</span>
+                            <span class="text-blue-500 text-4xl font-bold">99</span>
+                        </div>
+                    </div>
+
+                    <img src="https://laracasts.com/images/plans/sub-yearly.svg?v=3" alt="yearly plan img" class="mx-auto mb-3">
+
+                    <p class="text-gray-600 px-2 mb-auto">
+                        Set your ocular implants to binge-mode. Go all in with a discounted <span class="font-semibold">yearly</span> plan.
+                    </p>
+
+                    <a href="#" 
+                        class="bg-blue-500 text-white py-3 px-10 mx-auto text-xs font-bold uppercase rounded-full tracking-wide"
+                    >
+                        Start learning
+                    </a>
+                </div>
+                <div class="plan-card flex flex-col bg-white pt-5 pb-6 px-4 w-1/4 shadow rounded-2xl text-center">
+                    <div class="flex justify-between items-center">
+                        <h5 class="font-semibold text-xs uppercase">
+                            <a href="#">Forever</a>
+                        </h5>
+                        <div>
+                            <span class="text-blue-500">$</span>
+                            <span class="text-blue-500 text-4xl font-bold">350</span>
+                        </div>
+                    </div>
+
+                    <img src="https://laracasts.com/images/plans/sub-lifetime.svg?v=3" alt="lifetime plan img" class="mx-auto mb-3">
+
+                    <p class="text-gray-600 px-2 mb-auto">
+                        Permanently uplink to our mainframe. Pay once, and access Laracasts <span class="font-semibold">forever</span>.
+                    </p>
+
+                    <a href="#" 
+                        class="bg-gray-100 py-3 px-10 mx-auto text-xs font-bold uppercase rounded-full tracking-wide"
+                    >
+                        Start learning
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-5">
+        <div class="flex items-center">
+            <h1 class="border-blue-500 border-l-4 m-6 pl-3 text-2xl text-blue-500 tracking-wider uppercase font-semibold">
+                Call to action banner design
+            </h1>
+            <span class="bg-white shadow px-4 py-2 rounded-full border-blue-500 border-l-2 border-r-2">Sept 8, 2021</span>
+        </div>
+        <div class="banner text-white">
+            <div class="flex items-center max-w-5xl mx-auto h-full">
+                <div class="w-1/2 mr-auto">
+                    <h1 class="text-3xl mb-3">
+                        The most concise screencast for the working developer, updated daily.
+                    </h1>
+                    <p class="mb-8">
+                        There is no shortage of content at Laracasts. In facts, you could watch nonstop for days upon days, and still not see everything!
+                    </p>
+                    <a href="#" class="border border-white px-5 py-2 rounded-full inline-block hover:bg-white hover:text-black">
+                        Get started
+                    </a>
+                </div>
+                <img src="https://laracasts.com/images/laracasts-gang@2x.png" alt="laracasts gang img" class="max-w-md">
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-5">
+        <div class="flex items-center">
+            <h1 class="border-indigo-500 border-l-4 m-6 pl-3 text-2xl text-indigo-500 tracking-wider uppercase font-semibold">
+                Modals with zero JavaScript
+            </h1>
+            <span class="bg-white shadow px-4 py-2 rounded-full border-indigo-500 border-l-2 border-r-2">
+                Sept 9, 2021
+            </span>
+        </div>
+        <div>
+            <a href="#overlay" class="inline-block bg-white hover:text-blue-500 shadow hover:shadow-none px-4 py-3 rounded-2xl ml-6">Open Modal</a>
+            <div id="overlay" class="bg-black bg-opacity-50 grid place-items-center fixed left-0 right-0 top-0 bottom-0">
+                <div class="modal overflow-y-auto bg-white h-1/3 w-1/3 p-5 rounded shadow">
+                    <div class="flex justify-between mb-5 text-2xl">
+                        <h1>This is modal.</h1>
+                        <a href="#">&times;</a>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sed dignissimos error minus! Error officia quam laudantium voluptates ipsam. Perspiciatis, minima facere. Quibusdam debitis, officiis eligendi voluptate vero quos dicta.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-5">
+        <div class="flex items-center">
+            <h1 class="border-indigo-500 border-l-4 m-6 pl-3 text-2xl text-indigo-500 tracking-wider uppercase font-semibold">
+                Illusion of typed text
+            </h1>
+            <span class="bg-white shadow px-4 py-2 rounded-full border-indigo-500 border-l-2 border-r-2">
+                Sept 10, 2021
+            </span>
+        </div>
+        <div class="illusion-container grid h-40 place-items-center">
+            <h1 class="">This text will be illusion of typed text!</h1>
+            <p class="fadeIn wait-5s">This will be fadeIn</p>
+        </div>
+    </section>
+
+</body>
+</html>
